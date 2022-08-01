@@ -11,6 +11,7 @@ class Car(ABC):
     def accelerate(self):
         raise NotImplementedError
 
+print('')
     @classmethod
     def stop(self): # poate sa contina si metode normale ( cu logica interna )
         print('STOP!')
